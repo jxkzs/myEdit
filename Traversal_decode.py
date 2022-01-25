@@ -55,6 +55,3 @@ if len(map_Dict) == len(map_Dict):
             print(count,"---",max_count)
             if max_count < count:
                 os.abort()
-            #f.write(s+"\t"+d)
-
-
