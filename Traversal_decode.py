@@ -25,7 +25,7 @@ def strDict(map_D,D):
 f = open("result.txt","w")
 
 def decideStr(String):
-    key="~!@#$%^&*()_+-={}[]|\\:;\"\',./? \n\t\r\b\v"
+    key="~!@#$%^&*()_+-={}[]|\\:;\"\',./? "
     for i in list(String):
         if not (i.isalnum() or i in key):
             return False
